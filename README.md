@@ -1,4 +1,4 @@
-# Neural_Network_Charity_Analysis
+# Neural Network Charity Analysis
 
 ## ***Overview of the analysis:***
 
@@ -8,24 +8,24 @@ In this challenge, Alphabet Soup, a nonprofit group needs an algorithm written t
 
 ### ***Data Preprocessing***
 
-- What variable(s) are considered the target(s) for your model?
+- ***What variable(s) are considered the target(s) for your model?***
     
    The IS_SUCCESSFUL column is the target for this model.
 
 
-- What variable(s) are considered to be the features for your model?
+- ***What variable(s) are considered to be the features for your model?***
     
-   The columns 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', and 'ASK_AMT'     are considered to be the features of the model.
+    The columns 'APPLICATION_TYPE', 'AFFILIATION', 'CLASSIFICATION', 'USE_CASE', 'ORGANIZATION', 'STATUS', 'INCOME_AMT', 'SPECIAL_CONSIDERATIONS', and 'ASK_AMT' are considered to be the features of the model.
 
 
-- What variable(s) are neither targets nor features, and should be removed from the input data?
+- ***What variable(s) are neither targets nor features, and should be removed from the input data?***
   
-  The columns 'EIN,' and 'Name' do not add any relavent data, therefore they were removed from the input data.
+    The columns 'EIN,' and 'Name' do not add any relavent data, therefore they were removed from the input data.
 
 
 ### ***Compiling, Training, and Evaluating the Model***
 
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+- ***How many neurons, layers, and activation functions did you select for your neural network model, and why?***
 
   <img width="622" alt="Screen Shot 2022-02-01 at 10 53 52 AM" src="https://user-images.githubusercontent.com/87077325/152013659-83c11ebb-7fda-49be-afe3-05797871fe9f.png">
   
@@ -39,11 +39,11 @@ In this challenge, Alphabet Soup, a nonprofit group needs an algorithm written t
 
    The third model was compiled of three hidden layers, with 200, 100, and 50 neurons respectively. The result was an accuracy score of 72.6%.
 
-- Were you able to achieve the target model performance?
+- ***Were you able to achieve the target model performance?***
   
   Since none of the models acheived a score at or above 75%, this model is unsuccessful.
 
-- What steps did you take to try and increase model performance?
+- ***What steps did you take to try and increase model performance?***
   
   The steps I took to increase model performance was lower and raise the number of layers and neurons.
 
