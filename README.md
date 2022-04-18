@@ -1,12 +1,12 @@
-# Neural Network Charity Analysis
+# ***Neural Network Charity Analysis***
 
-## ***Overview of the analysis:***
+## ***Overview:***
 
 In this challenge, Alphabet Soup, a nonprofit group needs an algorithm written to predict whether an organization will be successful if they participate in the funding of the applicants. By using machine learning and neural networks, we will be analyizing the data of 34,000 applicants so that Alphabet Soup can be more informed which of the applicants will be most successful. Using the raw data provided by Alphabet Soup, we preprocessed, compiled and trained the data, then built a model that optimized the data into useful knowledge.
 
 ## ***Results:***
 
-### ***Data Preprocessing***
+### ***Data Preprocessing:***
 
 - ***What variable(s) are considered the target(s) for your model?***
     
@@ -23,7 +23,7 @@ In this challenge, Alphabet Soup, a nonprofit group needs an algorithm written t
     The columns 'EIN,' and 'Name' do not add any relavent data, therefore they were removed from the input data.
 
 
-### ***Compiling, Training, and Evaluating the Model***
+### ***Compiling, Training, and Evaluating the Model:***
 
 - ***How many neurons, layers, and activation functions did you select for your neural network model, and why?***
 
